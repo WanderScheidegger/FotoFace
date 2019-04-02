@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fundoAzul"
+    android:id="@+id/scrollViewLogin"
+    android:scrollIndicators="right">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fotoface.ee4yo.studio.com.fotoface.LoginActivity"
+    android:background="@color/fundoAzul"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagemLogo"
+        android:background="@drawable/logo_fotoface"
+        android:layout_above="@+id/ADM_loginID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textEmailAddress"
+        android:id="@+id/ADM_loginID"
+        android:hint="Digite o seu e-mail:"
+        android:textColor="@color/cinzaA"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="false"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPassword"
+        android:id="@+id/ADM_senhaID"
+        android:layout_alignParentStart="true"
+        android:hint="Digite a sua senha:"
+        android:textColor="@color/cinzaA"
+        android:layout_below="@+id/ADM_loginID"
+        android:layout_alignParentLeft="true"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_logar"
+        android:ems="10"
+        android:id="@+id/bt_ADM_logarID"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ADM_senhaID"
+        android:layout_centerHorizontal="true"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:theme="@style/botaoPadrao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Não tem cadastro? Cadastre-se aqui."
+        android:id="@+id/textBtCadastrarID"
+        android:textColor="@color/cinzaA"
+        android:textSize="16sp"
+        android:layout_below="@+id/bt_ADM_logarID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Esqueceu a senha? Clique aqui."
+        android:id="@+id/esqueceuSenhaID"
+        android:layout_below="@+id/textBtCadastrarID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cinzaA"
+        android:textSize="16sp"
+        android:padding="10dp" />
+
+</LinearLayout>
+</ScrollView>

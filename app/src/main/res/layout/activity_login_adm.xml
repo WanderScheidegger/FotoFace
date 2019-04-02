@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fundoAzul"
+    android:orientation="vertical">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:id="@+id/linear01"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/altura_caixa"
+            android:inputType="textEmailAddress"
+            android:id="@+id/LoginID"
+            android:hint="Login de administrador:"
+            android:textColor="@color/cinzaA"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:singleLine="false"
+            android:elevation="@dimen/caixa_elevacao"
+            android:background="@drawable/myrect"
+            android:layout_marginBottom="@dimen/caixa_margem_inferior"
+            android:paddingLeft="@dimen/caixa_padding_esquerda"
+            android:translationZ="@dimen/caixa_elevacao"
+            android:typeface="monospace"
+            android:textSize="@dimen/caixa_tamanho_fonte" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/altura_caixa"
+            android:inputType="textPassword"
+            android:id="@+id/SenhaID"
+            android:layout_alignParentStart="true"
+            android:hint="Senha de Administrador:"
+            android:textColor="@color/cinzaA"
+            android:layout_below="@+id/ADM_loginID"
+            android:layout_alignParentLeft="true"
+            android:elevation="@dimen/caixa_elevacao"
+            android:background="@drawable/myrect"
+            android:paddingLeft="@dimen/caixa_padding_esquerda"
+            android:translationZ="@dimen/caixa_elevacao"
+            android:typeface="monospace"
+            android:textSize="@dimen/caixa_tamanho_fonte" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botao_logar"
+            android:ems="10"
+            android:id="@+id/bt_LogarID"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/ADM_senhaID"
+            android:layout_centerHorizontal="true"
+            android:translationZ="@dimen/caixa_elevacao"
+            android:theme="@style/botaoPadrao" />
+    </LinearLayout>
+
+
+</FrameLayout>

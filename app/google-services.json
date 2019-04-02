@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "733705519552",
+    "firebase_url": "https://fotoface-f8bf4.firebaseio.com",
+    "project_id": "fotoface-f8bf4",
+    "storage_bucket": "fotoface-f8bf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733705519552:android:c6036ca9f32ff4cd",
+        "android_client_info": {
+          "package_name": "fotoface.ee4yo.studio.com.fotoface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733705519552-eo6ci644tnleh065m7jmpr5boff8a7pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fotoface.ee4yo.studio.com.fotoface",
+            "certificate_hash": "3b02fa47e9fa67a5f8958b5581aaa7d29708bd54"
+          }
+        },
+        {
+          "client_id": "733705519552-3hotl2604m9iteij7154o8lafrf0o0lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fotoface.ee4yo.studio.com.fotoface",
+            "certificate_hash": "d7c3ebf5334d22c0236379bd18883fb40ba9fa3d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk_yfP-w2qajIA24wcLpNYkSDoSQa9HUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733705519552-36g43qftf3dftm815jhik7jf50v3djkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

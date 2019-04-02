@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollViewCadaastroUsuario"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/fundoAzul">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fotoface.ee4yo.studio.com.fotoface.CadastroUsuarioActivity"
+    android:background="@color/fundoAzul"
+    android:gravity="center_vertical|center_horizontal"
+    android:scrollIndicators="right"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/cad"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_nome"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite seu nome:"
+        android:textColor="@color/cinzaA"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_sobrenome"
+        android:layout_below="@+id/edit_cadastro_nome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite seu sobrenome:"
+        android:textColor="@color/cinzaA"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_matricula"
+        android:layout_below="@+id/edit_cadastro_sobrenome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite sua matricula:"
+        android:textColor="@color/cinzaA"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_curso"
+        android:layout_below="@+id/edit_cadastro_matricula"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite seu curso:"
+        android:textColor="@color/cinzaA"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_instituicao"
+        android:layout_below="@+id/edit_cadastro_curso"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite sua Instituição:"
+        android:textColor="@color/cinzaA"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_email"
+        android:layout_below="@+id/edit_cadastro_instituicao"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite seu e-mail:"
+        android:textColor="@color/cinzaA"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:layout_marginBottom="@dimen/caixa_margem_inferior"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altura_caixa"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edit_cadastro_senha"
+        android:layout_below="@+id/edit_cadastro_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Digite sua senha:"
+        android:textColor="@color/cinzaA"
+        android:password="false"
+        android:paddingLeft="@dimen/caixa_padding_esquerda"
+        android:elevation="@dimen/caixa_elevacao"
+        android:background="@drawable/myrect"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:typeface="monospace"
+        android:textSize="@dimen/caixa_tamanho_fonte" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_cadastrar"
+        android:id="@+id/bt_cadastrar"
+        android:layout_below="@+id/edit_cadastro_senha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cinzaA"
+        android:translationZ="@dimen/caixa_elevacao"
+        android:theme="@style/botaoPadrao"/>
+
+</LinearLayout>
+</ScrollView>

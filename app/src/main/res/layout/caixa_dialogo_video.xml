@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinzaA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Escolha qual vídeo deseja enviar:"
+        android:id="@+id/textoSCaixaDialogoID"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:typeface="normal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/RadioGroupID">
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Esquerdo"
+                android:id="@+id/radioButtonEsquerdoID"
+                android:checked="true"
+                android:textSize="16sp"
+                android:elevation="3dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Direito"
+                android:id="@+id/radioButtonDireitoID"
+                android:checked="false"
+                android:textSize="16sp"
+                android:elevation="3dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:id="@+id/botao_enviar_dialogID"
+            android:layout_marginRight="20dp"
+            android:elevation="5dp"
+            android:background="@color/colorPrimaryDarker" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:id="@+id/botao_cancelar_dialogID"
+            android:layout_marginLeft="20dp"
+            android:elevation="5dp"
+            android:background="@color/colorPrimaryDarker" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fotoface.ee4yo.studio.com.fotoface.FotosActivity"
+    android:orientation="vertical"
+    android:background="@color/fundoAzul">
+
+<include android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_fotos_cadastradas"
+        android:layout_gravity="center_horizontal|top"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="fotoface.ee4yo.studio.com.fotoface.CameraActivity"
+    android:background="@color/fundoAzul">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/CropImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="330dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/bt_cortar"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/oval"
+        android:elevation="6dp"
+        android:onClick="onCropImageClick"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="@dimen/distancia_baixo_botao"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_cut" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/oval"
+        android:elevation="6dp"
+        android:onClick="onLoadImageClick"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/distancia_baixo_botao"
+        android:id="@+id/bt_carregar"
+        android:src="@drawable/ic_camera" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/botao_salvar"
+        android:background="@drawable/oval"
+        android:elevation="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/distancia_baixo_botao"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/ic_action_save" />
+
+
+</RelativeLayout>

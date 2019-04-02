@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fotoface.ee4yo.studio.com.fotoface.fragment.VideoFragment"
+    android:background="@color/fundoAzul">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/bt_gravar_video"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/distancia_baixo_botao"
+        android:background="@drawable/oval"
+        android:src="@drawable/ic_video_call"
+        android:elevation="5dp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/bt_upload"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/distancia_baixo_botao"
+        android:background="@drawable/oval"
+        android:src="@drawable/ic_cloud_upload"
+        android:elevation="5dp"
+        android:visibility="visible"
+        android:layout_marginLeft="60dp" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/bt_play"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="@dimen/distancia_baixo_botao"
+        android:background="@drawable/oval"
+        android:src="@drawable/ic_action_playback_play"
+        android:elevation="5dp"
+        android:visibility="visible"
+        android:layout_marginRight="60dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clique em &quot;Dicas&quot; para aprender a cadastrar o vídeo"
+        android:id="@+id/texto_dicas_videoID"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:typeface="normal"
+        android:elevation="5dp"
+        android:background="@color/cinzaA"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DICAS"
+        android:id="@+id/bt_dicas_videoID"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="90dp" />
+
+    <VideoView
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:id="@+id/video_play"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="140dp" />
+
+</FrameLayout>

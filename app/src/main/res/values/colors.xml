@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b6156</color>
+    <color name="colorPrimaryDark">#FF4A5151</color>
+    <color name="colorPrimaryDarker">#FFEC7964</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="FundoCinza">#b6b9b6</color>
+    <color name="AzulAndroid">#FF00BCD4</color>
+    <color name="BarraCinzaClaro">#efefef</color>
+    <color name="cinzaA">#FF4A5151</color>
+    <color name="Vermelho">#ac3f3f</color>
+    <color name="fundoAzul">#FF6DBDC4</color>
+    <color name="botao1">#FFBEBEBE</color>
+
+
+
+
+</resources>

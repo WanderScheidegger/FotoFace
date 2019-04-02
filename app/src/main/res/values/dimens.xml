@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="altura_caixa">43dp</dimen>
+    <dimen name="caixa_elevacao">3dp</dimen>
+    <dimen name="caixa_margem_inferior">7dp</dimen>
+    <dimen name="caixa_padding_esquerda">7dp</dimen>
+    <dimen name="caixa_tamanho_fonte">16sp</dimen>
+    <dimen name="distancia_baixo_botao">15dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FotoFace</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="botao_logar">Logar</string>
+    <string name="p_titulo">
+        TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO</string>
+
+    <string name="p1_contrato">Eu, Wandercleyson Marchiori Scheidegger, sou aluno do Curso de
+        Graduação em Engenharia Elétrica no INSTITUTO FEDERAL DO ESPÍRITO SANTO.
+        Estou realizando uma pesquisa sob a supervisão da Professora Mariana Rampinelli Fernandes,
+        cujo objetivo é captar fotografias de faces, através de um aplicativo de celular,
+        para testes a serem realizados em um sistema de reconhecimento facial, junto aos
+        alunos do Curso de Engenharia Elétrica do IFES – Campus Vitória.</string>
+
+    <string name="p2_contrato">Convido o(a) Senhor(a) a participar deste estudo. Sua participação
+        envolve o download do aplicativo, o cadastro com informações básicas como: nome completo,
+        e-mail e curso. Será necessário também, o envio de 10 (dez) fotografias e de 2 (dois) vídeos
+        de sua face, capturados a partir do aplicativo.</string>
+
+    <string name="p3_contrato">
+        A participação neste estudo é voluntária e caso decida não participar ou, quiser desistir de
+        continuar em qualquer momento, tem absoluta liberdade de fazê-lo e seu cadastro, imagens e
+        vídeos serão descartados da pesquisa. Na publicação dos resultados desta pesquisa, sua
+        identidade será mantida no mais rigoroso sigilo. Serão omitidas todas as informações que
+        permitam identificá-lo(a) e suas fotos e vídeos serão somente objeto do estudo em questão e não
+        serão utilizadas de nenhuma outra forma diversa.</string>
+
+    <string name="p4_contrato">
+        Este estudo oferece risco mínimo aos participantes no que se refere a possível constrangimento de
+        divulgação da imagem. Mesmo não tendo benefícios diretos em participar, indiretamente você estará
+        contribuindo para a pesquisa na área de identificação automática de faces.</string>
+
+    <string name="p5_contrato">
+        Quaisquer dúvidas relativas à pesquisa poderão ser esclarecidas pela pesquisadora
+        cel.: (27) 9 9502-6436 ou pela entidade responsável – Comitê de Ética em Pesquisa do
+        IFES, tel.: 3357-7530.</string>
+
+    <string name="p6_contrato">Ao clicar no botão “Aceitar” consinto em participar deste estudo.</string>
+    <string name="p7_contrato">Atenciosamente,</string>
+    <string name="p8_contrato">Wandercleyson Marchiori Scheidegger – Estudante pesquisador</string>
+    <string name="p9_contrato">Mariana Rampinelli Fernandes - Orientadora</string>
+
+    <string name="botao_modificar">Alterar Dados</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
