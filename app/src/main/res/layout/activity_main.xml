@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDarker"
-        android:elevation="5dp"></fotoface.ee4yo.studio.com.fotoface.helper.SlidingTabLayout>
+        android:elevation="6dp"></fotoface.ee4yo.studio.com.fotoface.helper.SlidingTabLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_pagina"
